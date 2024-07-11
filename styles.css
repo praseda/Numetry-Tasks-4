@@ -1,0 +1,191 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #002060;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-content .tagline {
+    font-size: 14px;
+}
+
+.header-content .contact-info a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    background: url('Industry\ 1.jpg')no-repeat center center/cover;
+    height: 650px;
+    padding: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero-content h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    margin: 0;
+    text-align:left;
+    line-height: 1.2;
+}
+
+
+
+
+.contact-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 32, 96, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form h2 {
+    margin: 0 0 15px 0;
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: #bbb;
+}
+
+.contact-form button {
+    background-color: #00ccff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.info-box {
+    width: 30%;
+    text-align: center;
+    color: #3a90f8;
+}
+
+.info-box h3 {
+    margin: 10px 0;
+    color: #0c0f52;
+}
+
+.info-box img {
+    width: 350px;
+    height: 350px;
+}
+
+.about-us {
+    background-color: #002060;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-us h2 {
+    margin: 0 0 10px 0;
+}
+
+.about-us p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-us button {
+    background-color: #00ccff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.articles {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 60px 0px;
+    background: #fff;
+    color: #000;
+}
+
+.article {
+    display:flex;
+    align-items:flex-end;
+   
+}
+
+.article-left {
+    flex-direction: row;
+    margin-right: -300px;
+    text-align:center;
+}
+
+.article-right {
+    flex-direction: row-reverse;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.article img {
+    max-width: 50%;
+    width: 800px;
+    height: 400px;
+    object-fit:cover;
+}
+
+.article-text {
+    padding: 50px;
+    font-size: large;
+}
+
+footer {
+    background-color: #002060;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
